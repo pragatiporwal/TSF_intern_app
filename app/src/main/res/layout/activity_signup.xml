@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic1"
+    android:padding="10dp"
+    tools:context=".signup">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pic5"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN-UP"
+        android:textSize="20dp"
+        android:layout_marginLeft="145dp"
+        android:textColor="#682CBF"
+        android:fontFamily="sans-serif"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etemail"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edit_round"
+        android:textSize="20dp"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etpass"
+        android:hint="Password"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_round"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:background="@drawable/button_round"
+        android:layout_marginTop="20dp"
+        android:text="Create Account"/>
+</LinearLayout>
